@@ -1,0 +1,93 @@
+LAB 7 -- PHOTO GALLERY PROJECT
+
+
+  LOG OBJECT
+
+  Properties
+  File name (private)
+  File type (private)
+  File size (private)
+  Caption (private)
+  Path to authorized log folder (private)
+  Path to unauthorized log folder (private)
+  Path to photo file (private)
+
+
+  METHODS
+  View  authorized log file (private)
+  View unauthorized log file (private)
+  Clear authorized log file (private)
+  Clear unauthorized log file (private)
+  Upload photo file (private)
+
+
+  LOGIN ADMIN OBJECT
+
+  PROPERTIES
+  Username (private)
+  Password (private)
+  Path to authorized text (private)
+  Path to unauthorized text (private)
+
+
+
+
+    METHODS
+  Get username (private)
+  Get password (private)
+  Authenticate username (private)
+  Authenticate password (private)
+  Permit or disallow access (private)
+  Update log file (private) 
+  View authorized text file (private) 
+  View unauthorized text file (private) 
+  Delete unauthorized text file (private) 
+  Delete authorized text file (private)
+
+  Header object
+
+  Properties
+  Title (public)
+
+  Methods
+  Display title (public)
+
+  Footer object
+
+  Properties
+  Month (public)
+  Day (public)
+  Year (public)
+
+  Methods
+  Retrieve day (public)
+  Retrieve month (public)
+  Retrieve year (public)
+  Display day (public)
+  Display month (public) 
+  Display year (public)
+
+
+  PHOTOGRAPH OBJECT
+  PROPERTIES
+  identifier (public)
+  file name (public)
+  file type (public)
+  file size (public)
+  caption (public)
+  path to image folder (private)
+  uploaded file errors (public)
+  METHODS
+  upload file (public)
+
+  save file ( (public))
+  destroy file (public)
+  save text caption (public)
+  save comments (public)
+  find photo by id (public)
+  find all photos (public)
+  find photo by SQL (public)
+  count photos (public)
+  create DB entry for photo (public)
+  update DB entry for photo (public)
+  delete DB entry for photo (public)
